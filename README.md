@@ -5,4 +5,4 @@
 ## My resume
 
 https://razgoanizada.com/files/CV.pdf
-![resume](https://)
+![resume](./src/images/resume.PNG)
