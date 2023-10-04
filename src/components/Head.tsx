@@ -13,7 +13,7 @@ const Head = () => {
           sequence={[
             "I'm a Full Stack Developer",
             2000,
-            "I can code with Java, React, Type Script, Java Script Kotlin.",
+            "I can code with Java, React, Type Script, Java Script and Kotlin.",
             3000,
             "Of course HTML, CSS, SASS and modern design frameworks too.",
             3000,
