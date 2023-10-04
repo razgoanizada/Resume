@@ -4,6 +4,4 @@
 
 ## My resume
 
-https://razgoanizada.com/files/CV.pdf
-</br>
 ![resume](./src/images/resume.PNG)
