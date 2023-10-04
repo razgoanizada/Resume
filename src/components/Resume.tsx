@@ -95,14 +95,14 @@ const Resume = () => {
             <span className="bg-orange-400 absolute inset-x-0 bottom-0 h-1"></span>
           </span>
         </h2>
-        <span className="ml-2 text-lg">JAVA</span>
+        <span className="ml-2 text-lg">Java</span>
         <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
           <div
             className="h-full rounded-full bg-orange-400"
             style={{ width: `90%` }}
           />
         </div>
-        <span className="ml-2 text-lg">REACT</span>
+        <span className="ml-2 text-lg">React</span>
         <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
           <div
             className="h-full rounded-full bg-orange-400"

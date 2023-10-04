@@ -1,20 +1,19 @@
 import { MDBIcon } from "mdb-react-ui-kit";
 import { TypeAnimation } from "react-type-animation";
-import { GrDocumentPdf } from "react-icons/gr";
+import { BsFilePdf, BsArrowDownSquare } from "react-icons/bs";
+import {MdOutlineKeyboardArrowDown} from "react-icons/md"
 
 const Head = () => {
   return (
-    <div className="head h-screen flex justify-center items-center head">
-      <div className="w-8/12 bg-sky-100 p-8 rounded-lg text-center">
+    <div className="head h-screen flex flex-col justify-center items-center head ">
+      <div className="w-8/12 bg-slate-50 p-8 rounded-lg text-center">
         <h1 className="text-4xl font-bold">I'm Raz Goanizada</h1>
 
         <TypeAnimation
           sequence={[
-            "I'm a Python Full Stack Developer",
+            "I'm a Full Stack Developer",
             2000,
-            "That's not all.",
-            1000,
-            "I can code with ReactJS, JavaScript, TypeScript VBA and Java.",
+            "I can code with Java, React, Type Script, Java Script Kotlin.",
             3000,
             "Of course HTML, CSS, SASS and modern design frameworks too.",
             3000,
@@ -48,17 +47,21 @@ const Head = () => {
         </a>
         <br />
 
-        <div className="flex justify-center items-center mt-3">
+        <div className="flex flex-col justify-center items-center mt-4">
           <a
-            className="flex text-center gap-x-2 rounded-full border-2 bg-none py-2 px-4 text-sm font-medium text-black ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base"
+            className="flex text-center gap-x-2 rounded-full border-2 py-2 px-4 bg-blue-50 hover:bg-blue-200"
             href="https://razgoanizada.com/files/CV.pdf"
             target="_blank"
           >
-            <GrDocumentPdf className="h-5 w-5 sm:h-6 sm:w-6 fill-red-500" />
+            <BsFilePdf className="h-5 w-5 sm:h-6 sm:w-6 fill-red-600" />
             <h5>Resume</h5>
           </a>
+          
+         
         </div>
       </div>
+      <a href="#about"><MdOutlineKeyboardArrowDown className="bg-white mt-5 border rounded-full " size={50}/></a>
+      
     </div>
   );
 };

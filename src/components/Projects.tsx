@@ -11,12 +11,12 @@ const Projects = () => {
         </h2>
       <div className="mt-5 text-white flex flex-col flex-lg-row mb-4 items-center">
         <a href="https://github.com/razgoanizada/library" target="_blank">
-          <div className="circle mb-3 mx-2">
+          <div className="circle mb-3 mx-3">
             <h3>Library backend</h3>
           </div>
         </a>
         <a href="https://github.com/razgoanizada/libraryfront" target="_blank">
-          <div className="circle mx-2 mb-3">
+          <div className="circle mx-3 mb-3">
           <h3>Library frontend</h3>
           </div>
         </a>
@@ -27,8 +27,8 @@ const Projects = () => {
         </a>
         <a href="https://github.com/razgoanizada/Resume" target="_blank">
           <div
-            className="circle mb-3">
-              <h3>Resume</h3>
+            className="circle mb-3 mx-3">
+              <h3>Resume Website</h3>
           </div>
         </a>
       </div>

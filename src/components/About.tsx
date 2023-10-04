@@ -7,7 +7,7 @@ const About = () => {
         <img
           src={my}
           alt="raz goanizada"
-          className="col-10 col-lg-6 col-xl-4 mx-4 m-3"
+          className="col-10 col-lg-6 col-xl-4 mx-4 mt-5 mb-3"
         />
         <p>
           I am an organized and efficient person, hard-working with the ability
